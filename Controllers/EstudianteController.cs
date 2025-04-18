@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MonolitoTaller.Models.DAO;
 using MonolitoTaller.Models.Entities;
+using MonolitoTaller.Models.ViewModels;
 
 namespace MonolitoTaller.Controllers
 {
@@ -21,10 +22,23 @@ namespace MonolitoTaller.Controllers
 
         public IActionResult Details(int id)
         {
-            var estudiante = dao.ObtenerPorId(id);
+            // Obtener Estudiante
+            var estudiante = dao.ObtenerPorId(id); 
             if (estudiante == null) return NotFound();
-            return View(estudiante);
+
+            // Obtener las asignaturas y las notas del estudiante
+            var asignaturasNotas = dao.ObtenerAsignaturasYNotasPorEstudiante(id);
+
+            // Crear un modelo para enviar a la vista
+            var modelo = new EstudianteDetalleViewModel
+            {
+                Estudiante = estudiante,
+                AsignaturasNotas = asignaturasNotas
+            };
+
+            return View(modelo);
         }
+
 
         public IActionResult Create()
         {

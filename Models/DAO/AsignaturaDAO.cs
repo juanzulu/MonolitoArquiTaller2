@@ -89,9 +89,16 @@ namespace MonolitoTaller.Models.DAO
             using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                var cmd = new SqlCommand("DELETE FROM Asignatura WHERE id_asignatura = @id", conn);
-                cmd.Parameters.AddWithValue("@id", id);
-                cmd.ExecuteNonQuery();
+
+                // 1. Eliminar notas asociadas a la asignatura
+                var eliminarNotas = new SqlCommand("DELETE FROM Nota WHERE id_asignatura = @id", conn);
+                eliminarNotas.Parameters.AddWithValue("@id", id);
+                eliminarNotas.ExecuteNonQuery();
+
+                // 2. Eliminar la asignatura
+                var eliminarAsignatura = new SqlCommand("DELETE FROM Asignatura WHERE id_asignatura = @id", conn);
+                eliminarAsignatura.Parameters.AddWithValue("@id", id);
+                eliminarAsignatura.ExecuteNonQuery();
             }
         }
     }

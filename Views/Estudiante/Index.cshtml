@@ -17,7 +17,8 @@
             <th>Apellido</th>
             <th>Correo</th>
             <th>Documento</th>
-            <th></th>
+            <th>Asignatura</th>
+            <th>Opciones</th>
         </tr>
     </thead>
     <tbody>
@@ -29,8 +30,11 @@
                 <td>@e.Correo</td>
                 <td>@e.Documento</td>
                 <td>
+                    <a asp-action="Details" asp-route-id="@e.Id">Detalles</a>
+                </td>
+                <td>
                     <a asp-action="Edit" asp-route-id="@e.Id">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@e.Id">Detalles</a> |
+                    
                     <a asp-action="Delete" asp-route-id="@e.Id">Eliminar</a>
                 </td>
             </tr>

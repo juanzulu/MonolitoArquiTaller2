@@ -1,5 +1,6 @@
 ﻿using MonolitoTaller.Models.Entities;
-using Microsoft.Data.SqlClient; 
+using Microsoft.Data.SqlClient;
+using MonolitoTaller.Models.ViewModels;
 
 
 namespace MonolitoTaller.Models.DAO
@@ -97,6 +98,41 @@ namespace MonolitoTaller.Models.DAO
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
             }
+        }
+
+        public List<NotaVistaViewModel> ObtenerNotasParaVista()
+        {
+            var lista = new List<NotaVistaViewModel>();
+
+            using (var conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                var cmd = new SqlCommand(@"
+            SELECT 
+                n.id_nota,
+                e.documento AS DocumentoEstudiante,
+                a.codigo AS CodigoAsignatura,
+                n.valor,
+                n.fecha_registro
+            FROM Nota n
+            INNER JOIN Estudiante e ON n.id_estudiante = e.id_estudiante
+            INNER JOIN Asignatura a ON n.id_asignatura = a.id_asignatura", conn);
+
+                var reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    lista.Add(new NotaVistaViewModel
+                    {
+                        IdNota = (int)reader["id_nota"],
+                        DocumentoEstudiante = reader["DocumentoEstudiante"].ToString(),
+                        CodigoAsignatura = reader["CodigoAsignatura"].ToString(),
+                        Valor = (decimal)reader["valor"],
+                        FechaRegistro = (DateTime)reader["fecha_registro"]
+                    });
+                }
+            }
+
+            return lista;
         }
     }
 }
