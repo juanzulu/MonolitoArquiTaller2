@@ -1,7 +1,7 @@
-﻿@model List<MonolitoTaller.Models.Entities.Nota>
+﻿@model List<MonolitoTaller.Models.ViewModels.NotaVistaViewModel>
 
 @{
-    ViewBag.Title = "Notas Registradas";
+    ViewBag.Title = "Listado de Notas";
 }
 
 <h2>Listado de Notas</h2>
@@ -14,27 +14,21 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>ID Estudiante</th>
-            <th>ID Asignatura</th>
+            <th>Documento Estudiante</th>
+            <th>Código Asignatura</th>
             <th>Nota</th>
             <th>Fecha</th>
-            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Id</td>
-                <td>@item.IdEstudiante</td>
-                <td>@item.IdAsignatura</td>
+                <td>@item.IdNota</td>
+                <td>@item.DocumentoEstudiante</td>
+                <td>@item.CodigoAsignatura</td>
                 <td>@item.Valor</td>
                 <td>@item.FechaRegistro.ToShortDateString()</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-                </td>
             </tr>
         }
     </tbody>

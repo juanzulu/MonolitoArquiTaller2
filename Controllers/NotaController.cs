@@ -20,7 +20,7 @@ namespace MonolitoTaller.Controllers
 
         public IActionResult Index()
         {
-            var notas = dao.ObtenerTodas();
+            var notas = dao.ObtenerNotasParaVista();
             return View(notas);
         }
 

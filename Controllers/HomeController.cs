@@ -8,15 +8,5 @@ namespace MonolitoTaller.Controllers
         {
             return View();
         }
-
-        public IActionResult About()
-        {
-            return View(); // Opcional si agregas una vista About.cshtml
-        }
-
-        public IActionResult Contact()
-        {
-            return View(); // Opcional si agregas una vista Contact.cshtml
-        }
     }
 }

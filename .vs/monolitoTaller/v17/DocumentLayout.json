@@ -1,48 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\nota\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\nota\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\nota\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\nota\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\nota\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\controllers\\notacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:controllers\\notacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\asignatura\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\asignatura\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -50,136 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Nota\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Index.cshtml",
-              "RelativeToolTip": "Views\\Nota\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T20:44:26.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Nota\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Nota\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T20:44:22.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Nota\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Details.cshtml",
-              "RelativeToolTip": "Views\\Nota\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T20:44:12.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Nota\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Nota\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T20:44:12.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NotaController.cs",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Controllers\\NotaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NotaController.cs",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Controllers\\NotaController.cs",
-              "RelativeToolTip": "Controllers\\NotaController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAswEMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T20:39:49.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Nota.cs",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\Entities\\Nota.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Nota.cs",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\Entities\\Nota.cs",
-              "RelativeToolTip": "Models\\Entities\\Nota.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T20:39:35.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Nota\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Create.cshtml",
-              "RelativeToolTip": "Views\\Nota\\Create.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T20:36:53.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Asignatura\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Asignatura\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T20:36:48.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:53:03.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T18:49:22.132Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

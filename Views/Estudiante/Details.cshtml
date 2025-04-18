@@ -1,12 +1,32 @@
-﻿@model MonolitoTaller.Models.Entities.Estudiante
+﻿@model MonolitoTaller.Models.ViewModels.EstudianteDetalleViewModel
 
-<h2>Detalles del Estudiante</h2>
 
-<div>
-    <p><strong>Nombre:</strong> @Model.Nombre</p>
-    <p><strong>Apellido:</strong> @Model.Apellido</p>
-    <p><strong>Correo:</strong> @Model.Correo</p>
-    <p><strong>Documento:</strong> @Model.Documento</p>
-</div>
+<h2>Detalles de las Asignaturas del Estudiante @Model.Estudiante.Nombre</h2>
+
+<h3>Asignaturas y Notas</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Asignatura</th>
+            <th>Código</th>
+            <th>Créditos</th>
+            <th>Nota</th>
+            <th>Fecha de Registro</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.AsignaturasNotas)
+        {
+            <tr>
+                <td>@item.AsignaturaNombre</td>
+                <td>@item.Codigo</td>
+                <td>@item.Creditos</td>
+                <td>@item.Valor</td>
+                <td>@item.FechaRegistro.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
 
 <a asp-action="Index" class="btn btn-outline-secondary">Volver</a>
