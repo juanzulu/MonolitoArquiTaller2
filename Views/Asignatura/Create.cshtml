@@ -1,25 +1,24 @@
-﻿@model MonolitoArquiTaller2.Models.Entities.Asignatura
+﻿@model MonolitoTaller.Models.Entities.Asignatura
+
 @{
     ViewBag.Title = "Crear Asignatura";
 }
 
-<h2>Crear Asignatura</h2>
+<h2>Nueva Asignatura</h2>
 
-@using (Html.BeginForm())
-{
+<form asp-action="Create" method="post">
     <div class="form-group">
-        @Html.LabelFor(a => a.Nombre)
-        @Html.TextBoxFor(a => a.Nombre, new { @class = "form-control" })
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
     </div>
     <div class="form-group">
-        @Html.LabelFor(a => a.Codigo)
-        @Html.TextBoxFor(a => a.Codigo, new { @class = "form-control" })
+        <label asp-for="Codigo"></label>
+        <input asp-for="Codigo" class="form-control" />
     </div>
     <div class="form-group">
-        @Html.LabelFor(a => a.Creditos)
-        @Html.TextBoxFor(a => a.Creditos, new { @class = "form-control", type = "number" })
+        <label asp-for="Creditos"></label>
+        <input asp-for="Creditos" class="form-control" />
     </div>
-
-    <button type="submit" class="btn btn-primary">Guardar</button>
-    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary" })
-}
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

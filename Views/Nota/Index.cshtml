@@ -1,35 +1,37 @@
-﻿@model List<MonolitoArquiTaller2.Models.Entities.Nota>
+﻿@model IEnumerable<MonolitoTaller.Models.Entities.Nota>
+
 @{
-    ViewBag.Title = "Listado de Notas";
+    ViewBag.Title = "Notas";
 }
 
 <h2>Listado de Notas</h2>
 
 <p>
-    @Html.ActionLink("Registrar nueva nota", "Create")
+    <a asp-action="Create" class="btn btn-primary">Registrar nueva nota</a>
 </p>
 
-<table class="table table-bordered">
+<table class="table table-bordered table-striped">
     <thead>
         <tr>
             <th>ID Estudiante</th>
             <th>ID Asignatura</th>
             <th>Valor</th>
-            <th>Fecha</th>
-            <th>Acciones</th>
+            <th>Fecha de Registro</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var nota in Model)
+        @foreach (var n in Model)
         {
             <tr>
-                <td>@nota.IdEstudiante</td>
-                <td>@nota.IdAsignatura</td>
-                <td>@nota.Valor</td>
-                <td>@nota.FechaRegistro.ToShortDateString()</td>
+                <td>@n.IdEstudiante</td>
+                <td>@n.IdAsignatura</td>
+                <td>@n.Valor</td>
+                <td>@n.FechaRegistro.ToShortDateString()</td>
                 <td>
-                    @Html.ActionLink("Eliminar", "Delete", new { id = nota.Id }) |
-                    @Html.ActionLink("Detalles", "Details", new { id = nota.Id })
+                    <a asp-action="Edit" asp-route-id="@n.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@n.Id">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@n.Id">Eliminar</a>
                 </td>
             </tr>
         }

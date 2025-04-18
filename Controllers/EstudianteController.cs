@@ -1,86 +1,77 @@
-﻿using System.Web.Mvc;
-using MonolitoArquiTaller2.Models.Entities;
-using MonolitoArquiTaller2.Models.DAO;
+﻿using Microsoft.AspNetCore.Mvc;
+using MonolitoTaller.Models.DAO;
+using MonolitoTaller.Models.Entities;
 
-namespace MonolitoArquiTaller2.Controllers
+namespace MonolitoTaller.Controllers
 {
     public class EstudianteController : Controller
     {
-        private EstudianteDAO dao = new EstudianteDAO();
+        private readonly EstudianteDAO dao;
 
-        // GET: Estudiante
-        public ActionResult Index()
+        public EstudianteController(IConfiguration config)
         {
-            var lista = dao.ObtenerTodos();
-            return View(lista);
+            dao = new EstudianteDAO(config);
         }
 
-        // GET: Estudiante/Details/5
-        public ActionResult Details(int id)
+        public IActionResult Index()
+        {
+            var estudiantes = dao.ObtenerTodos();
+            return View(estudiantes);
+        }
+
+        public IActionResult Details(int id)
         {
             var estudiante = dao.ObtenerPorId(id);
-            if (estudiante == null)
-                return HttpNotFound();
-
+            if (estudiante == null) return NotFound();
             return View(estudiante);
         }
 
-        // GET: Estudiante/Create
-        public ActionResult Create()
+        public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Estudiante/Create
         [HttpPost]
-        public ActionResult Create(Estudiante estudiante)
+        public IActionResult Create(Estudiante estudiante)
         {
             if (ModelState.IsValid)
             {
                 dao.Crear(estudiante);
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             return View(estudiante);
         }
 
-        // GET: Estudiante/Edit/5
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int id)
         {
             var estudiante = dao.ObtenerPorId(id);
-            if (estudiante == null)
-                return HttpNotFound();
-
+            if (estudiante == null) return NotFound();
             return View(estudiante);
         }
 
-        // POST: Estudiante/Edit/5
         [HttpPost]
-        public ActionResult Edit(Estudiante estudiante)
+        public IActionResult Edit(Estudiante estudiante)
         {
             if (ModelState.IsValid)
             {
                 dao.Actualizar(estudiante);
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             return View(estudiante);
         }
 
-        // GET: Estudiante/Delete/5
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
             var estudiante = dao.ObtenerPorId(id);
-            if (estudiante == null)
-                return HttpNotFound();
-
+            if (estudiante == null) return NotFound();
             return View(estudiante);
         }
 
-        // POST: Estudiante/Delete/5
         [HttpPost, ActionName("Delete")]
-        public ActionResult DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(int id)
         {
             dao.Eliminar(id);
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
         }
     }
 }

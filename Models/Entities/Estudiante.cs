@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace MonolitoArquiTaller2.Models.Entities
+﻿namespace MonolitoTaller.Models.Entities
 {
     public class Estudiante
     {
-        // Equivale a id_estudiante en la BD
+        // Equivale a id_estudiante
         public int Id { get; set; }              
         public string Nombre { get; set; }
         public string Apellido { get; set; }

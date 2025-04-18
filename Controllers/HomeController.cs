@@ -1,13 +1,22 @@
-﻿using System.Web.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MonolitoArquiTaller2.Controllers
+namespace MonolitoTaller.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
-        public ActionResult Index()
+        public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult About()
+        {
+            return View(); // Opcional si agregas una vista About.cshtml
+        }
+
+        public IActionResult Contact()
+        {
+            return View(); // Opcional si agregas una vista Contact.cshtml
         }
     }
 }

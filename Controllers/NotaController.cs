@@ -1,68 +1,77 @@
-﻿using System.Web.Mvc;
-using MonolitoArquiTaller2.Models.DAO;
-using MonolitoArquiTaller2.Models.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
+using MonolitoTaller.Models.DAO;
+using MonolitoTaller.Models.Entities;
 
-namespace MonolitoArquiTaller2.Controllers
+namespace MonolitoTaller.Controllers
 {
     public class NotaController : Controller
     {
-        private NotaDAO notaDAO = new NotaDAO();
-        private EstudianteDAO estudianteDAO = new EstudianteDAO();
-        private AsignaturaDAO asignaturaDAO = new AsignaturaDAO();
+        private readonly NotaDAO dao;
 
-        // GET: Nota
-        public ActionResult Index()
+        public NotaController(IConfiguration config)
         {
-            var lista = notaDAO.ObtenerTodas();
-            return View(lista);
+            dao = new NotaDAO(config);
         }
 
-        // GET: Nota/Details/5
-        public ActionResult Details(int id)
+        public IActionResult Index()
         {
-            var nota = notaDAO.ObtenerPorId(id);
-            if (nota == null) return HttpNotFound();
+            var notas = dao.ObtenerTodas();
+            return View(notas);
+        }
+
+        public IActionResult Details(int id)
+        {
+            var nota = dao.ObtenerPorId(id);
+            if (nota == null) return NotFound();
             return View(nota);
         }
 
-        // GET: Nota/Create
-        public ActionResult Create()
+        public IActionResult Create()
         {
-            ViewBag.Estudiantes = new SelectList(estudianteDAO.ObtenerTodos(), "Id", "NombreCompleto");
-            ViewBag.Asignaturas = new SelectList(asignaturaDAO.ObtenerTodas(), "Id", "Nombre");
             return View();
         }
 
-        // POST: Nota/Create
         [HttpPost]
-        public ActionResult Create(Nota nota)
+        public IActionResult Create(Nota nota)
         {
             if (ModelState.IsValid)
             {
-                notaDAO.Crear(nota);
-                return RedirectToAction("Index");
+                dao.Crear(nota);
+                return RedirectToAction(nameof(Index));
             }
-
-            // Si hay error, recargar dropdowns
-            ViewBag.Estudiantes = new SelectList(estudianteDAO.ObtenerTodos(), "Id", "NombreCompleto", nota.IdEstudiante);
-            ViewBag.Asignaturas = new SelectList(asignaturaDAO.ObtenerTodas(), "Id", "Nombre", nota.IdAsignatura);
             return View(nota);
         }
 
-        // GET: Nota/Delete/5
-        public ActionResult Delete(int id)
+        public IActionResult Edit(int id)
         {
-            var nota = notaDAO.ObtenerPorId(id);
-            if (nota == null) return HttpNotFound();
+            var nota = dao.ObtenerPorId(id);
+            if (nota == null) return NotFound();
             return View(nota);
         }
 
-        // POST: Nota/Delete/5
+        [HttpPost]
+        public IActionResult Edit(Nota nota)
+        {
+            if (ModelState.IsValid)
+            {
+                dao.Actualizar(nota);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(nota);
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var nota = dao.ObtenerPorId(id);
+            if (nota == null) return NotFound();
+            return View(nota);
+        }
+
         [HttpPost, ActionName("Delete")]
-        public ActionResult DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(int id)
         {
-            notaDAO.Eliminar(id);
-            return RedirectToAction("Index");
+            dao.Eliminar(id);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

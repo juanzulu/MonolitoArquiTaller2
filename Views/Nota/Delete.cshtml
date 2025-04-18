@@ -1,19 +1,17 @@
-﻿@model MonolitoArquiTaller2.Models.Entities.Nota
-@{
-    ViewBag.Title = "Eliminar Nota";
-}
+﻿@model MonolitoTaller.Models.Entities.Nota
 
-<h2>¿Deseas eliminar esta nota?</h2>
+<h2>Eliminar Nota</h2>
+
+<p>¿Estás seguro que deseas eliminar esta nota?</p>
 
 <ul>
-    <li><strong>ID Estudiante:</strong> @Model.IdEstudiante</li>
-    <li><strong>ID Asignatura:</strong> @Model.IdAsignatura</li>
+    <li><strong>Estudiante:</strong> @Model.IdEstudiante</li>
+    <li><strong>Asignatura:</strong> @Model.IdAsignatura</li>
     <li><strong>Valor:</strong> @Model.Valor</li>
-    <li><strong>Fecha:</strong> @Model.FechaRegistro.ToShortDateString()</li>
 </ul>
 
-@using (Html.BeginForm("DeleteConfirmed", "Nota", new { id = Model.Id }))
-{
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
     <button type="submit" class="btn btn-danger">Eliminar</button>
-    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary" })
-}
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

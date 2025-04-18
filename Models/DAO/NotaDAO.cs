@@ -1,30 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using MonolitoArquiTaller2.Models.Entities;
+﻿using MonolitoTaller.Models.Entities;
+using Microsoft.Data.SqlClient; 
 
-namespace MonolitoArquiTaller2.Models.DAO
+
+namespace MonolitoTaller.Models.DAO
 {
     public class NotaDAO
     {
-        private string connectionString = "Server=localhost;Database=GestionAcademica;User Id=sa;Password=StrongPass123!;";
+        private readonly string connectionString;
+
+        public NotaDAO(IConfiguration config)
+        {
+            connectionString = config.GetConnectionString("DefaultConnection");
+        }
 
         public List<Nota> ObtenerTodas()
         {
             var lista = new List<Nota>();
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT id_nota, id_estudiante, id_asignatura, valor, fecha_registro FROM Nota";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                SqlDataReader reader = cmd.ExecuteReader();
+                var cmd = new SqlCommand("SELECT id_nota, id_estudiante, id_asignatura, valor, fecha_registro FROM Nota", conn);
+                var reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
                     lista.Add(new Nota
                     {
-                        Id = Convert.ToInt32(reader["id_nota"]),
-                        IdEstudiante = Convert.ToInt32(reader["id_estudiante"]),
-                        IdAsignatura = Convert.ToInt32(reader["id_asignatura"]),
+                        Id = (int)reader["id_nota"],
+                        IdEstudiante = (int)reader["id_estudiante"],
+                        IdAsignatura = (int)reader["id_asignatura"],
                         Valor = Convert.ToDecimal(reader["valor"]),
                         FechaRegistro = Convert.ToDateTime(reader["fecha_registro"])
                     });
@@ -35,39 +38,50 @@ namespace MonolitoArquiTaller2.Models.DAO
 
         public Nota ObtenerPorId(int id)
         {
-            Nota nota = null;
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT * FROM Nota WHERE id_nota = @id";
-                SqlCommand cmd = new SqlCommand(query, conn);
+                var cmd = new SqlCommand("SELECT id_nota, id_estudiante, id_asignatura, valor, fecha_registro FROM Nota WHERE id_nota = @id", conn);
                 cmd.Parameters.AddWithValue("@id", id);
-                SqlDataReader reader = cmd.ExecuteReader();
+                var reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    nota = new Nota
+                    return new Nota
                     {
-                        Id = Convert.ToInt32(reader["id_nota"]),
-                        IdEstudiante = Convert.ToInt32(reader["id_estudiante"]),
-                        IdAsignatura = Convert.ToInt32(reader["id_asignatura"]),
+                        Id = (int)reader["id_nota"],
+                        IdEstudiante = (int)reader["id_estudiante"],
+                        IdAsignatura = (int)reader["id_asignatura"],
                         Valor = Convert.ToDecimal(reader["valor"]),
                         FechaRegistro = Convert.ToDateTime(reader["fecha_registro"])
                     };
                 }
             }
-            return nota;
+            return null;
         }
 
         public void Crear(Nota nota)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = @"INSERT INTO Nota (id_estudiante, id_asignatura, valor, fecha_registro)
-                                 VALUES (@id_estudiante, @id_asignatura, @valor, @fecha)";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@id_estudiante", nota.IdEstudiante);
-                cmd.Parameters.AddWithValue("@id_asignatura", nota.IdAsignatura);
+                var cmd = new SqlCommand("INSERT INTO Nota (id_estudiante, id_asignatura, valor, fecha_registro) VALUES (@idEst, @idAsig, @valor, @fecha)", conn);
+                cmd.Parameters.AddWithValue("@idEst", nota.IdEstudiante);
+                cmd.Parameters.AddWithValue("@idAsig", nota.IdAsignatura);
+                cmd.Parameters.AddWithValue("@valor", nota.Valor);
+                cmd.Parameters.AddWithValue("@fecha", nota.FechaRegistro);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void Actualizar(Nota nota)
+        {
+            using (var conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                var cmd = new SqlCommand("UPDATE Nota SET id_estudiante = @idEst, id_asignatura = @idAsig, valor = @valor, fecha_registro = @fecha WHERE id_nota = @id", conn);
+                cmd.Parameters.AddWithValue("@id", nota.Id);
+                cmd.Parameters.AddWithValue("@idEst", nota.IdEstudiante);
+                cmd.Parameters.AddWithValue("@idAsig", nota.IdAsignatura);
                 cmd.Parameters.AddWithValue("@valor", nota.Valor);
                 cmd.Parameters.AddWithValue("@fecha", nota.FechaRegistro);
                 cmd.ExecuteNonQuery();
@@ -76,11 +90,10 @@ namespace MonolitoArquiTaller2.Models.DAO
 
         public void Eliminar(int id)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "DELETE FROM Nota WHERE id_nota = @id";
-                SqlCommand cmd = new SqlCommand(query, conn);
+                var cmd = new SqlCommand("DELETE FROM Nota WHERE id_nota = @id", conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
             }

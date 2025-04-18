@@ -1,80 +1,77 @@
-﻿using System.Web.Mvc;
-using MonolitoArquiTaller2.Models.DAO;
-using MonolitoArquiTaller2.Models.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
+using MonolitoTaller.Models.DAO;
+using MonolitoTaller.Models.Entities;
 
-namespace MonolitoArquiTaller2.Controllers
+namespace MonolitoTaller.Controllers
 {
     public class AsignaturaController : Controller
     {
-        private AsignaturaDAO dao = new AsignaturaDAO();
+        private readonly AsignaturaDAO dao;
 
-        // GET: Asignatura
-        public ActionResult Index()
+        public AsignaturaController(IConfiguration config)
         {
-            var lista = dao.ObtenerTodas();
-            return View(lista);
+            dao = new AsignaturaDAO(config);
         }
 
-        // GET: Asignatura/Details/5
-        public ActionResult Details(int id)
+        public IActionResult Index()
+        {
+            var asignaturas = dao.ObtenerTodas();
+            return View(asignaturas);
+        }
+
+        public IActionResult Details(int id)
         {
             var asignatura = dao.ObtenerPorId(id);
-            if (asignatura == null) return HttpNotFound();
+            if (asignatura == null) return NotFound();
             return View(asignatura);
         }
 
-        // GET: Asignatura/Create
-        public ActionResult Create()
+        public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Asignatura/Create
         [HttpPost]
-        public ActionResult Create(Asignatura asignatura)
+        public IActionResult Create(Asignatura asignatura)
         {
             if (ModelState.IsValid)
             {
                 dao.Crear(asignatura);
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             return View(asignatura);
         }
 
-        // GET: Asignatura/Edit/5
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int id)
         {
             var asignatura = dao.ObtenerPorId(id);
-            if (asignatura == null) return HttpNotFound();
+            if (asignatura == null) return NotFound();
             return View(asignatura);
         }
 
-        // POST: Asignatura/Edit/5
         [HttpPost]
-        public ActionResult Edit(Asignatura asignatura)
+        public IActionResult Edit(Asignatura asignatura)
         {
             if (ModelState.IsValid)
             {
                 dao.Actualizar(asignatura);
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             return View(asignatura);
         }
 
-        // GET: Asignatura/Delete/5
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
             var asignatura = dao.ObtenerPorId(id);
-            if (asignatura == null) return HttpNotFound();
+            if (asignatura == null) return NotFound();
             return View(asignatura);
         }
 
-        // POST: Asignatura/Delete/5
         [HttpPost, ActionName("Delete")]
-        public ActionResult DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(int id)
         {
             dao.Eliminar(id);
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
         }
     }
 }

@@ -1,12 +1,13 @@
-﻿@model List<MonolitoArquiTaller2.Models.Entities.Estudiante>
+﻿@model IEnumerable<MonolitoTaller.Models.Entities.Estudiante>
+
 @{
-    ViewBag.Title = "Listado de Estudiantes";
+    ViewBag.Title = "Lista de Estudiantes";
 }
 
-<h2>Listado de Estudiantes</h2>
+<h2>Estudiantes</h2>
 
 <p>
-    @Html.ActionLink("Crear nuevo estudiante", "Create")
+    <a asp-action="Create" class="btn btn-primary">Crear nuevo</a>
 </p>
 
 <table class="table table-bordered">
@@ -16,21 +17,21 @@
             <th>Apellido</th>
             <th>Correo</th>
             <th>Documento</th>
-            <th>Acciones</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var est in Model)
+        @foreach (var e in Model)
         {
             <tr>
-                <td>@est.Nombre</td>
-                <td>@est.Apellido</td>
-                <td>@est.Correo</td>
-                <td>@est.Documento</td>
+                <td>@e.Nombre</td>
+                <td>@e.Apellido</td>
+                <td>@e.Correo</td>
+                <td>@e.Documento</td>
                 <td>
-                    @Html.ActionLink("Editar", "Edit", new { id = est.Id }) |
-                    @Html.ActionLink("Eliminar", "Delete", new { id = est.Id }) |
-                    @Html.ActionLink("Detalles", "Details", new { id = est.Id })
+                    <a asp-action="Edit" asp-route-id="@e.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@e.Id">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@e.Id">Eliminar</a>
                 </td>
             </tr>
         }

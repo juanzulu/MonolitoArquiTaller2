@@ -1,36 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using MonolitoArquiTaller2.Models.Entities;
+﻿using MonolitoTaller.Models.Entities;
+using Microsoft.Data.SqlClient; 
 
-namespace MonolitoArquiTaller2.Models.DAO
+
+namespace MonolitoTaller.Models.DAO
 {
     public class EstudianteDAO
     {
-        // Cambia esto según tu configuración local o contenedor Docker
-        private string connectionString = "Server=localhost;Database=GestionAcademica;User Id=sa;Password=StrongPass123!;";
+        private readonly string connectionString;
+
+        public EstudianteDAO(IConfiguration configuration)
+        {
+            connectionString = configuration.GetConnectionString("DefaultConnection");
+        }
 
         public List<Estudiante> ObtenerTodos()
         {
             var lista = new List<Estudiante>();
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT id_estudiante, nombre, apellido, correo, documento FROM Estudiante";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                SqlDataReader reader = cmd.ExecuteReader();
-
+                var cmd = new SqlCommand("SELECT id_estudiante, nombre, apellido, correo, documento FROM Estudiante", conn);
+                var reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    var estudiante = new Estudiante
+                    lista.Add(new Estudiante
                     {
-                        Id = Convert.ToInt32(reader["id_estudiante"]),
+                        Id = (int)reader["id_estudiante"],
                         Nombre = reader["nombre"].ToString(),
                         Apellido = reader["apellido"].ToString(),
                         Correo = reader["correo"].ToString(),
                         Documento = reader["documento"].ToString()
-                    };
-                    lista.Add(estudiante);
+                    });
                 }
             }
             return lista;
@@ -38,20 +38,17 @@ namespace MonolitoArquiTaller2.Models.DAO
 
         public Estudiante ObtenerPorId(int id)
         {
-            Estudiante estudiante = null;
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT id_estudiante, nombre, apellido, correo, documento FROM Estudiante WHERE id_estudiante = @id";
-                SqlCommand cmd = new SqlCommand(query, conn);
+                var cmd = new SqlCommand("SELECT id_estudiante, nombre, apellido, correo, documento FROM Estudiante WHERE id_estudiante = @id", conn);
                 cmd.Parameters.AddWithValue("@id", id);
-
-                SqlDataReader reader = cmd.ExecuteReader();
+                var reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    estudiante = new Estudiante
+                    return new Estudiante
                     {
-                        Id = Convert.ToInt32(reader["id_estudiante"]),
+                        Id = (int)reader["id_estudiante"],
                         Nombre = reader["nombre"].ToString(),
                         Apellido = reader["apellido"].ToString(),
                         Correo = reader["correo"].ToString(),
@@ -59,49 +56,44 @@ namespace MonolitoArquiTaller2.Models.DAO
                     };
                 }
             }
-            return estudiante;
+            return null;
         }
 
-        public void Crear(Estudiante estudiante)
+        public void Crear(Estudiante e)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = @"INSERT INTO Estudiante (nombre, apellido, correo, documento)
-                                 VALUES (@nombre, @apellido, @correo, @documento)";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@nombre", estudiante.Nombre);
-                cmd.Parameters.AddWithValue("@apellido", estudiante.Apellido);
-                cmd.Parameters.AddWithValue("@correo", estudiante.Correo);
-                cmd.Parameters.AddWithValue("@documento", estudiante.Documento);
+                var cmd = new SqlCommand("INSERT INTO Estudiante (nombre, apellido, correo, documento) VALUES (@nombre, @apellido, @correo, @documento)", conn);
+                cmd.Parameters.AddWithValue("@nombre", e.Nombre);
+                cmd.Parameters.AddWithValue("@apellido", e.Apellido);
+                cmd.Parameters.AddWithValue("@correo", e.Correo);
+                cmd.Parameters.AddWithValue("@documento", e.Documento);
                 cmd.ExecuteNonQuery();
             }
         }
 
-        public void Actualizar(Estudiante estudiante)
+        public void Actualizar(Estudiante e)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = @"UPDATE Estudiante SET nombre = @nombre, apellido = @apellido, correo = @correo, documento = @documento
-                                 WHERE id_estudiante = @id";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@id", estudiante.Id);
-                cmd.Parameters.AddWithValue("@nombre", estudiante.Nombre);
-                cmd.Parameters.AddWithValue("@apellido", estudiante.Apellido);
-                cmd.Parameters.AddWithValue("@correo", estudiante.Correo);
-                cmd.Parameters.AddWithValue("@documento", estudiante.Documento);
+                var cmd = new SqlCommand("UPDATE Estudiante SET nombre = @nombre, apellido = @apellido, correo = @correo, documento = @documento WHERE id_estudiante = @id", conn);
+                cmd.Parameters.AddWithValue("@id", e.Id);
+                cmd.Parameters.AddWithValue("@nombre", e.Nombre);
+                cmd.Parameters.AddWithValue("@apellido", e.Apellido);
+                cmd.Parameters.AddWithValue("@correo", e.Correo);
+                cmd.Parameters.AddWithValue("@documento", e.Documento);
                 cmd.ExecuteNonQuery();
             }
         }
 
         public void Eliminar(int id)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (var conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "DELETE FROM Estudiante WHERE id_estudiante = @id";
-                SqlCommand cmd = new SqlCommand(query, conn);
+                var cmd = new SqlCommand("DELETE FROM Estudiante WHERE id_estudiante = @id", conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
             }

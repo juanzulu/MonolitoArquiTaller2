@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Inicio";
+    ViewData["Title"] = "Inicio";
 }
 
 <h2>Sistema de Gestión Académica</h2>
@@ -7,7 +7,7 @@
 <p>Bienvenido al sistema. Selecciona una opción:</p>
 
 <ul>
-    <li>@Html.ActionLink("Gestión de Estudiantes", "Index", "Estudiante")</li>
-    <li>@Html.ActionLink("Gestión de Asignaturas", "Index", "Asignatura")</li>
-    <li>@Html.ActionLink("Gestión de Notas", "Index", "Nota")</li>
+    <li><a asp-controller="Estudiante" asp-action="Index">Gestión de Estudiantes</a></li>
+    <li><a asp-controller="Asignatura" asp-action="Index">Gestión de Asignaturas</a></li>
+    <li><a asp-controller="Nota" asp-action="Index">Gestión de Notas</a></li>
 </ul>

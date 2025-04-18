@@ -1,15 +1,12 @@
-﻿@model MonolitoArquiTaller2.Models.Entities.Estudiante
-@{
-    ViewBag.Title = "Detalles del Estudiante";
-}
+﻿@model MonolitoTaller.Models.Entities.Estudiante
 
-<h2>Detalles</h2>
+<h2>Detalles del Estudiante</h2>
 
-<ul>
-    <li><strong>Nombre:</strong> @Model.Nombre</li>
-    <li><strong>Apellido:</strong> @Model.Apellido</li>
-    <li><strong>Correo:</strong> @Model.Correo</li>
-    <li><strong>Documento:</strong> @Model.Documento</li>
-</ul>
+<div>
+    <p><strong>Nombre:</strong> @Model.Nombre</p>
+    <p><strong>Apellido:</strong> @Model.Apellido</p>
+    <p><strong>Correo:</strong> @Model.Correo</p>
+    <p><strong>Documento:</strong> @Model.Documento</p>
+</div>
 
-@Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-primary" })
+<a asp-action="Index" class="btn btn-outline-secondary">Volver</a>
