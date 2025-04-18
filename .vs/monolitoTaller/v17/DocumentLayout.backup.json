@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\",
+  "WorkspaceRootPath": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\models\\dao\\notadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\dao\\notadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\models\\dao\\asignaturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\dao\\asignaturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\models\\dao\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\dao\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,29 +33,72 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:53:03.334Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T18:49:22.132Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T19:09:04.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AsignaturaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\AsignaturaDAO.cs",
+              "RelativeDocumentMoniker": "Models\\DAO\\AsignaturaDAO.cs",
+              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\AsignaturaDAO.cs",
+              "RelativeToolTip": "Models\\DAO\\AsignaturaDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T19:02:01.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\NotaDAO.cs",
+              "RelativeDocumentMoniker": "Models\\DAO\\NotaDAO.cs",
+              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\NotaDAO.cs",
+              "RelativeToolTip": "Models\\DAO\\NotaDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T19:07:37.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstudianteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\EstudianteDAO.cs",
+              "RelativeDocumentMoniker": "Models\\DAO\\EstudianteDAO.cs",
+              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\EstudianteDAO.cs",
+              "RelativeToolTip": "Models\\DAO\\EstudianteDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T19:07:34.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:59:23.661Z",
               "EditorCaption": ""
             }
           ]
