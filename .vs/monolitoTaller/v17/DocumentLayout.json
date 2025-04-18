@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\models\\dao\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\dao\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\models\\dao\\asignaturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\dao\\asignaturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\views\\estudiante\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\estudiante\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\models\\viewmodels\\estudiantedetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:models\\viewmodels\\estudiantedetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|c:\\users\\jumiz\\source\\repos\\monolitoarquitaller2\\views\\estudiante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82A1AC44-83DA-4FD2-A74D-1E6B16B3E3C9}|monolitoTaller.csproj|solutionrelative:views\\estudiante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,89 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EstudianteDetalleViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\ViewModels\\EstudianteDetalleViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\EstudianteDetalleViewModel.cs",
-              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\ViewModels\\EstudianteDetalleViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\EstudianteDetalleViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T21:53:26.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EstudianteController.cs",
-              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Controllers\\EstudianteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EstudianteController.cs",
-              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Controllers\\EstudianteController.cs",
-              "RelativeToolTip": "Controllers\\EstudianteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T21:42:24.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Views\\Estudiante\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Estudiante\\Details.cshtml",
-              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Views\\Estudiante\\Details.cshtml*",
-              "RelativeToolTip": "Views\\Estudiante\\Details.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T21:39:14.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Views\\Estudiante\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Estudiante\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Views\\Estudiante\\Index.cshtml",
-              "RelativeToolTip": "Views\\Estudiante\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T21:35:36.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AsignaturaDAO.cs",
-              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\AsignaturaDAO.cs",
-              "RelativeDocumentMoniker": "Models\\DAO\\AsignaturaDAO.cs",
-              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\AsignaturaDAO.cs",
-              "RelativeToolTip": "Models\\DAO\\AsignaturaDAO.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowGIAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T21:23:27.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EstudianteDAO.cs",
-              "DocumentMoniker": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\EstudianteDAO.cs",
-              "RelativeDocumentMoniker": "Models\\DAO\\EstudianteDAO.cs",
-              "ToolTip": "C:\\Users\\jumiz\\source\\repos\\MonolitoArquiTaller2\\Models\\DAO\\EstudianteDAO.cs",
-              "RelativeToolTip": "Models\\DAO\\EstudianteDAO.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAwwAIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T21:20:25.933Z",
-              "EditorCaption": ""
             }
           ]
         }
