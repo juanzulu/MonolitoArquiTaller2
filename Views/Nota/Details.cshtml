@@ -1,10 +1,29 @@
 ﻿@model MonolitoTaller.Models.Entities.Nota
 
-<h2>Detalles de la Nota</h2>
+@{
+    ViewBag.Title = "Detalle de Nota";
+}
 
-<p><strong>Estudiante:</strong> @Model.IdEstudiante</p>
-<p><strong>Asignatura:</strong> @Model.IdAsignatura</p>
-<p><strong>Nota:</strong> @Model.Valor</p>
-<p><strong>Fecha de Registro:</strong> @Model.FechaRegistro.ToShortDateString()</p>
+<h2>Detalle de Nota</h2>
 
-<a asp-action="Index" class="btn btn-outline-secondary">Volver</a>
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">ID</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+
+        <dt class="col-sm-3">ID Estudiante</dt>
+        <dd class="col-sm-9">@Model.IdEstudiante</dd>
+
+        <dt class="col-sm-3">ID Asignatura</dt>
+        <dd class="col-sm-9">@Model.IdAsignatura</dd>
+
+        <dt class="col-sm-3">Nota</dt>
+        <dd class="col-sm-9">@Model.Valor</dd>
+
+        <dt class="col-sm-3">Fecha</dt>
+        <dd class="col-sm-9">@Model.FechaRegistro.ToShortDateString()</dd>
+    </dl>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a>
+<a asp-action="Index" class="btn btn-secondary">Volver</a>
