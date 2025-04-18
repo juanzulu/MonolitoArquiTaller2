@@ -1,10 +1,138 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Janus\\source\\repos\\MonolitoArquiTaller2\\",
+  "WorkspaceRootPath": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\source\\repos\\monolitoarquitaller2\\models\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\nota\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\nota\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\nota\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\nota\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\nota\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\asignatura\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\asignatura\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\asignatura\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\asignatura\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\asignatura\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\asignatura\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\asignatura\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\asignatura\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\asignatura\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\asignatura\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\estudiante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\estudiante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\estudiante\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\estudiante\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\estudiante\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\estudiante\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\estudiante\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\estudiante\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\views\\estudiante\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:views\\estudiante\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\controllers\\notacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:controllers\\notacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\controllers\\asignaturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:controllers\\asignaturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:models\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\dao\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:models\\dao\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\dao\\notadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:models\\dao\\notadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:models\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\dao\\asignaturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:models\\dao\\asignaturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|c:\\users\\janus\\documents\\github\\monolitoarquitaller2\\models\\entities\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268421D2-DC32-4A2F-95A6-4DD89732D0F1}|MonolitoArquiTaller2.csproj|solutionrelative:models\\entities\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +142,435 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 30,
               "Title": "Nota.cs",
-              "DocumentMoniker": "C:\\Users\\Janus\\source\\repos\\MonolitoArquiTaller2\\Models\\Entities\\Nota.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\Entities\\Nota.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Nota.cs",
-              "ToolTip": "C:\\Users\\Janus\\source\\repos\\MonolitoArquiTaller2\\Models\\Entities\\Nota.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\Entities\\Nota.cs",
               "RelativeToolTip": "Models\\Entities\\Nota.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T03:21:06.545Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-18T16:24:49.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-18T16:24:50.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:24:46.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [16x16, 32 bits, BMP]",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\favicon.ico",
+              "RelativeDocumentMoniker": "favicon.ico",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [16x16, 32 bits, BMP]",
+              "RelativeToolTip": "favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [16x16, 32 bits, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-04-18T16:24:44.568Z",
+              "EditorCaption": " -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [16x16, 32 bits, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:19:56.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:24:23.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Views\\Web.config",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Web.config",
+              "RelativeToolTip": "Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-18T16:24:10.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nota\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Details.cshtml",
+              "RelativeToolTip": "Views\\Nota\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:19:53.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nota\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Nota\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:19:40.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nota\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Create.cshtml",
+              "RelativeToolTip": "Views\\Nota\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:19:30.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nota\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Nota\\Index.cshtml",
+              "RelativeToolTip": "Views\\Nota\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:19:19.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:17:20.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:17:19.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Asignatura\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Details.cshtml",
+              "RelativeToolTip": "Views\\Asignatura\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:16:57.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Asignatura\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Asignatura\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:16:40.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Asignatura\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Asignatura\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:16:18.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Asignatura\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Create.cshtml",
+              "RelativeToolTip": "Views\\Asignatura\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:16:06.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Asignatura\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Asignatura\\Index.cshtml",
+              "RelativeToolTip": "Views\\Asignatura\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:15:54.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:12:52.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Details.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:11:13.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:10:59.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:10:40.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Create.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:10:25.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estudiante\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Views\\Estudiante\\Index.cshtml",
+              "RelativeToolTip": "Views\\Estudiante\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:10:04.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:32:42.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AsignaturaController.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Controllers\\AsignaturaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AsignaturaController.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Controllers\\AsignaturaController.cs",
+              "RelativeToolTip": "Controllers\\AsignaturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:29:21.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NotaController.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Controllers\\NotaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotaController.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Controllers\\NotaController.cs",
+              "RelativeToolTip": "Controllers\\NotaController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:28:47.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\Entities\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\Entities\\Estudiante.cs",
+              "RelativeToolTip": "Models\\Entities\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:25:32.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NotaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\DAO\\NotaDAO.cs",
+              "RelativeDocumentMoniker": "Models\\DAO\\NotaDAO.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\DAO\\NotaDAO.cs",
+              "RelativeToolTip": "Models\\DAO\\NotaDAO.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:24:46.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Asignatura.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\Entities\\Asignatura.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Asignatura.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\Entities\\Asignatura.cs",
+              "RelativeToolTip": "Models\\Entities\\Asignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:53:23.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AsignaturaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\DAO\\AsignaturaDAO.cs",
+              "RelativeDocumentMoniker": "Models\\DAO\\AsignaturaDAO.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\DAO\\AsignaturaDAO.cs",
+              "RelativeToolTip": "Models\\DAO\\AsignaturaDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:53:21.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EstudianteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\DAO\\EstudianteDAO.cs",
+              "RelativeDocumentMoniker": "Models\\DAO\\EstudianteDAO.cs",
+              "ToolTip": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\Models\\DAO\\EstudianteDAO.cs",
+              "RelativeToolTip": "Models\\DAO\\EstudianteDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:53:20.423Z",
               "EditorCaption": ""
             }
           ]

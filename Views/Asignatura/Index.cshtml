@@ -1,0 +1,36 @@
+﻿@model List<MonolitoArquiTaller2.Models.Entities.Asignatura>
+@{
+    ViewBag.Title = "Listado de Asignaturas";
+}
+
+<h2>Listado de Asignaturas</h2>
+
+<p>
+    @Html.ActionLink("Crear nueva asignatura", "Create")
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Código</th>
+            <th>Créditos</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.Nombre</td>
+                <td>@a.Codigo</td>
+                <td>@a.Creditos</td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = a.Id }) |
+                    @Html.ActionLink("Eliminar", "Delete", new { id = a.Id }) |
+                    @Html.ActionLink("Detalles", "Details", new { id = a.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

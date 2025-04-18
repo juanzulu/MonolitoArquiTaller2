@@ -1,0 +1,32 @@
+﻿@model MonolitoArquiTaller2.Models.Entities.Nota
+@{
+    ViewBag.Title = "Registrar Nota";
+}
+
+<h2>Registrar Nota</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(n => n.IdEstudiante)
+        @Html.DropDownListFor(n => n.IdEstudiante, (SelectList)ViewBag.Estudiantes, "-- Seleccione un estudiante --", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(n => n.IdAsignatura)
+        @Html.DropDownListFor(n => n.IdAsignatura, (SelectList)ViewBag.Asignaturas, "-- Seleccione una asignatura --", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(n => n.Valor)
+        @Html.TextBoxFor(n => n.Valor, new { @class = "form-control", type = "number", step = "0.1", min = "0", max = "5" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(n => n.FechaRegistro)
+        @Html.TextBoxFor(n => n.FechaRegistro, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary" })
+}

@@ -1,0 +1,20 @@
+## Archivos generados por Visual Studio ##
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Carpetas de compilación ##
+bin/
+obj/
+
+## Archivos temporales ##
+*.log
+*.tmp
+*.bak
+*.cache
+
+## Configuración local ##
+*.dbmdl
+*.vscode/

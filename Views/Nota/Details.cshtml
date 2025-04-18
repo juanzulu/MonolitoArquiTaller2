@@ -1,0 +1,15 @@
+﻿@model MonolitoArquiTaller2.Models.Entities.Nota
+@{
+    ViewBag.Title = "Detalles de la Nota";
+}
+
+<h2>Detalles de la Nota</h2>
+
+<ul>
+    <li><strong>ID Estudiante:</strong> @Model.IdEstudiante</li>
+    <li><strong>ID Asignatura:</strong> @Model.IdAsignatura</li>
+    <li><strong>Valor:</strong> @Model.Valor</li>
+    <li><strong>Fecha:</strong> @Model.FechaRegistro.ToShortDateString()</li>
+</ul>
+
+@Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-primary" })

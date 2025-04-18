@@ -1,0 +1,37 @@
+﻿@model List<MonolitoArquiTaller2.Models.Entities.Nota>
+@{
+    ViewBag.Title = "Listado de Notas";
+}
+
+<h2>Listado de Notas</h2>
+
+<p>
+    @Html.ActionLink("Registrar nueva nota", "Create")
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID Estudiante</th>
+            <th>ID Asignatura</th>
+            <th>Valor</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var nota in Model)
+        {
+            <tr>
+                <td>@nota.IdEstudiante</td>
+                <td>@nota.IdAsignatura</td>
+                <td>@nota.Valor</td>
+                <td>@nota.FechaRegistro.ToShortDateString()</td>
+                <td>
+                    @Html.ActionLink("Eliminar", "Delete", new { id = nota.Id }) |
+                    @Html.ActionLink("Detalles", "Details", new { id = nota.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

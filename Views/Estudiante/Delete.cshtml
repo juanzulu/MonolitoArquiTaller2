@@ -1,0 +1,18 @@
+﻿@model MonolitoArquiTaller2.Models.Entities.Estudiante
+@{
+    ViewBag.Title = "Eliminar Estudiante";
+}
+
+<h2>¿Deseas eliminar este estudiante?</h2>
+
+<div>
+    <strong>@Model.Nombre @Model.Apellido</strong> <br />
+    <span>Correo: @Model.Correo</span> <br />
+    <span>Documento: @Model.Documento</span>
+</div>
+
+@using (Html.BeginForm("DeleteConfirmed", "Estudiante", new { id = Model.Id }))
+{
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary" })
+}
