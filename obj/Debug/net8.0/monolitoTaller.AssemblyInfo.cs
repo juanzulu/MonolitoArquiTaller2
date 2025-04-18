@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("monolitoTaller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc312433a496ab33457ba37ac55a05b99d965636")]
 [assembly: System.Reflection.AssemblyProductAttribute("monolitoTaller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("monolitoTaller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

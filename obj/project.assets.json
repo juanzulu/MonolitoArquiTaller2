@@ -1672,11 +1672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Janus\\source\\repos\\monolitoTaller\\monolitoTaller.csproj",
+      "projectUniqueName": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\monolitoTaller.csproj",
       "projectName": "monolitoTaller",
-      "projectPath": "C:\\Users\\Janus\\source\\repos\\monolitoTaller\\monolitoTaller.csproj",
+      "projectPath": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\monolitoTaller.csproj",
       "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Janus\\source\\repos\\monolitoTaller\\obj\\",
+      "outputPath": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
