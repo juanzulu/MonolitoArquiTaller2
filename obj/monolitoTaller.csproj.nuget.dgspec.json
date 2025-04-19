@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jumiz\\Source\\Repos\\MonolitoArquiTaller2\\monolitoTaller.csproj": {}
+    "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\monolitoTaller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jumiz\\Source\\Repos\\MonolitoArquiTaller2\\monolitoTaller.csproj": {
+    "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\monolitoTaller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jumiz\\Source\\Repos\\MonolitoArquiTaller2\\monolitoTaller.csproj",
+        "projectUniqueName": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\monolitoTaller.csproj",
         "projectName": "monolitoTaller",
-        "projectPath": "C:\\Users\\jumiz\\Source\\Repos\\MonolitoArquiTaller2\\monolitoTaller.csproj",
-        "packagesPath": "C:\\Users\\jumiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jumiz\\Source\\Repos\\MonolitoArquiTaller2\\obj\\",
+        "projectPath": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\monolitoTaller.csproj",
+        "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janus\\Documents\\GitHub\\MonolitoArquiTaller2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jumiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             }
           },
           "imports": [
