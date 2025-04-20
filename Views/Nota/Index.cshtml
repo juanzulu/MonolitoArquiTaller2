@@ -18,6 +18,7 @@
             <th>Código Asignatura</th>
             <th>Nota</th>
             <th>Fecha</th>
+            <th>Opciones</th>
         </tr>
     </thead>
     <tbody>
@@ -29,6 +30,11 @@
                 <td>@item.CodigoAsignatura</td>
                 <td>@item.Valor</td>
                 <td>@item.FechaRegistro.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdNota">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdNota">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdNota">Eliminar</a>
+                </td>
             </tr>
         }
     </tbody>
