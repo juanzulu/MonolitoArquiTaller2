@@ -3,15 +3,10 @@ IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'GestionAcademica')
 BEGIN
     CREATE DATABASE GestionAcademica;
     PRINT 'Base de datos GestionAcademica creada correctamente.';
-END
-ELSE
-BEGIN
-    PRINT 'La base de datos GestionAcademica ya existe.';
-END
-GO
+END;
 
+-- Cambiar al contexto de la base de datos
 USE GestionAcademica;
-GO
 
 -- Tabla Estudiante (creación condicional)
 IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Estudiante' AND type = 'U')
@@ -24,8 +19,7 @@ BEGIN
         documento NVARCHAR(50) NOT NULL
     );
     PRINT 'Tabla Estudiante creada correctamente.';
-END
-GO
+END;
 
 -- Tabla Asignatura (creación condicional)
 IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Asignatura' AND type = 'U')
@@ -37,8 +31,7 @@ BEGIN
         creditos INT NOT NULL
     );
     PRINT 'Tabla Asignatura creada correctamente.';
-END
-GO
+END;
 
 -- Tabla Nota (creación condicional)
 IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Nota' AND type = 'U')
@@ -53,5 +46,4 @@ BEGIN
         FOREIGN KEY (id_asignatura) REFERENCES Asignatura(id_asignatura)
     );
     PRINT 'Tabla Nota creada correctamente.';
-END
-GO
+END;

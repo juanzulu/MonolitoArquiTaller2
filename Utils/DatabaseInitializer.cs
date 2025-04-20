@@ -18,7 +18,6 @@ public static class DatabaseInitializer
                 logger.LogInformation($"✔️ Base de datos '{dbName}' verificada o creada.");
             }
 
-            // Ejecutar script
             var fullConnection = masterConnection.Replace("Database=master", $"Database={dbName}");
             var script = File.ReadAllText(scriptPath);
 

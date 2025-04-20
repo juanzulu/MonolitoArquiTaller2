@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("monolitoTaller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e812e115804c8cc2d1165f998806d4baae1e1589")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bbbe3eeee3fd67426172245625408e541f5afa0")]
 [assembly: System.Reflection.AssemblyProductAttribute("monolitoTaller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("monolitoTaller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

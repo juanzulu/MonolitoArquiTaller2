@@ -11,7 +11,8 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=GestionAcademica;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;Encrypt=False
-    restart: on-failure
+    restart: always
+    command: ["dotnet", "monolitoTaller.dll"]
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2019-latest

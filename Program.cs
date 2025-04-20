@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<EstudianteDAO>();
 builder.Services.AddScoped<AsignaturaDAO>();
@@ -13,7 +13,7 @@ builder.Services.AddScoped<NotaDAO>();
 
 var app = builder.Build();
 
-// Ejecutar script de inicialización
+
 try
 {
     var loggerFactory = LoggerFactory.Create(logging => logging.AddConsole());
@@ -34,7 +34,7 @@ catch (Exception ex)
     Console.WriteLine("❌ Error crítico al inicializar la base de datos: " + ex.Message);
 }
 
-// Configure the HTTP request pipeline.
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
