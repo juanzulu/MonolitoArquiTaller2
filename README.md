@@ -62,28 +62,21 @@ monolitoTaller/
 
 ### 🧪 Pasos para levantar el sistema
 
-1. **Clonar el repositorio**  
-   ```bash
-   git clone https://github.com/juanzulu/MonolitoArquiTaller2.git
-   cd monolitoTaller
-   ```
+1. **Descargar el archivo ZIP desde la sección de Releases del repositorio**
+2. **Descomprimir el archivo** (ej: `MonolitoArquiTaller2-VersionFinal`)
+3. **Abrir Docker Desktop y asegurarse de que esté ejecutándose**
+4. **Abrir una terminal (CMD o PowerShell) dentro de la carpeta del proyecto descomprimido**
 
-2. **Compilar la aplicación (opcional si ya fue publicada):**
-   ```bash
-   dotnet publish -c Release
-   ```
+```bash
+docker compose up -d --build
+Control + C                 # ← En caso de que docker compose se quede esperando
+docker start monolito_app  # ← Obligatorio para iniciar IIS en el contenedor
+```
 
-3. **Levantar contenedores**
-   ```bash
-   docker compose up -d --build
-   Control + C           # ← En caso de que docker compose se quede esperando
-   docker start monolito_app  # ← Obligatorio para iniciar IIS en el contenedor
-   ```
-
-4. **Acceder desde el navegador:**
-   ```
-   http://localhost:8080
-   ```
+5. **Acceder a la aplicación desde el navegador:**
+```
+http://localhost:8080
+```
 
 ---
 
