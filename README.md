@@ -76,7 +76,8 @@ monolitoTaller/
 3. **Levantar contenedores**
    ```bash
    docker compose up -d --build
-   docker start monolitoarquitaller2-entregapresentaciontaller2-app-1  # ← Obligatorio para iniciar IIS en contenedor
+   Control + C           # ← En caso de que docker compose se quede esperando
+   docker start monolito_app  # ← Obligatorio para iniciar IIS en el contenedor
    ```
 
 4. **Acceder desde el navegador:**
